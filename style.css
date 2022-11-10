@@ -1,0 +1,370 @@
+@import url('/web/20181124223612cs_/http://drved.com/css/reset.css');
+@import url('/web/20181124223612cs_/http://drved.com/css/text.css');
+@import url('/web/20181124223612cs_/http://drved.com/css/960.css');
+
+/* @group General Styling */
+
+body {
+	background: #fff;
+	color: #505050;
+	padding-top: 40px;
+	text-shadow: #e8e8e8 1px 1px 0;
+}
+
+#topfade {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	background: url(/web/20181124223612im_/http://drved.com/img/top_bg.png) repeat-x;
+	top: 0;
+}
+
+#bottomfade {
+	width: 940px;
+	height: 70px;
+	position: fixed;
+	background: url(/web/20181124223612im_/http://drved.com/img/bottom_bg.png) repeat-x;
+	bottom: 0;
+}
+
+div.container_12 div.grid_8.prefix_3 img {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.bullet {
+	position: relative;
+	top: -12px;
+}
+
+nav {
+	position: fixed;
+	width: 140px;
+}
+
+img {
+	margin-bottom: 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/* Class for Titles of portfolio pieces, that are not links (eg printed items) */
+
+.title {
+	color: #404a47;
+	margin-bottom: 10px;
+	display: block;
+}
+
+/* Portfolio Project Title Links */
+a.project {
+	margin-bottom: 10px;
+}
+
+/* @end */
+
+
+/* @group Navigation */
+
+/* Navigation Buttons */
+ul.navigation li a:active {
+	opacity: 0.75;
+}
+
+
+#button_home {
+	width: 112px;
+	height: 112px;
+	display: block;
+	background: url(/web/20181124223612im_/http://drved.com/img/home.png) no-repeat -112px 0px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-shadow: none;
+	text-indent: -9999px;
+}
+
+#button_team {
+	width: 112px;
+	height: 112px;
+	display: block;
+	background: url(/web/20181124223612im_/http://drved.com/img/team.png) no-repeat -112px 0px;
+	margin-bottom: 20px;
+	text-shadow: none;
+	text-indent: -9999px;
+}
+
+#button_work {
+	width: 112px;
+	height: 112px;
+	display: block;
+	background: url(/web/20181124223612im_/http://drved.com/img/work.png) no-repeat -112px 0px;
+	margin-bottom: 20px;
+	text-shadow: none;
+	text-indent: -9999px;
+}
+
+#button_contact {
+	width: 112px;
+	height: 112px;
+	display: block;
+	background: url(/web/20181124223612im_/http://drved.com/img/contact.png) no-repeat -112px 0px;
+	margin-bottom: 20px;
+	text-shadow: none;
+	text-indent: -9999px;
+}
+
+
+/* Navigation Hover State */
+#button_home:hover {
+	background: url(/web/20181124223612im_/http://drved.com/img/home.png) no-repeat 0px 0px;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+#button_team:hover {
+	background: url(/web/20181124223612im_/http://drved.com/img/team.png) no-repeat 0px 0px;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+#button_work:hover {
+	background: url(/web/20181124223612im_/http://drved.com/img/work.png) no-repeat 0px 0px;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+#button_contact:hover {
+	background: url(/web/20181124223612im_/http://drved.com/img/contact.png) no-repeat 0px 0px;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+/* @end */
+
+/* @group UL for Portfolio Description */
+
+/* Unordered List for portfolio piece features */
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+/* @end */
+
+/* @group Footer */
+
+#mailto {
+	padding: 6px 0px 6px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	background: #888;
+	width: 260px;
+	text-shadow: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#mailto:hover {
+	background: #555;
+}
+
+.footer {
+	padding: 8px 0px 8px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	background: #888;
+	width: 540px;
+	float: left;
+	text-shadow: none;
+}
+
+/* @end */
+
+/* @group Form Styling */
+
+/* Form Button */
+.button {
+	width: 308px;
+	height: 48px;
+	display: block;
+	background: url(/web/20181124223612im_/http://drved.com/img/submit.png) no-repeat 0px 0px;
+	font-family: "Museo700","Myriad Pro",Helvetica,sans-serif;
+	font-size: 20px;
+	color: #505050;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	text-shadow: none;
+	border-style: none;
+	text-align: center;
+	text-indent: -20px;
+}
+
+/* Form Button Hover State */
+.button:hover {
+	background: url(/web/20181124223612im_/http://drved.com/img/submit.png) no-repeat 0px -48px;
+	text-decoration: none;
+	color: #930005;
+	font-family: "Museo700","Myriad Pro",Helvetica,sans-serif;
+	font-size: 20px;
+}
+
+/* Form Input Styling */
+
+fieldset {
+	border: none;
+}
+
+input {
+	color: #505050;
+	border-style: none;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 48px;
+	padding-top: 0px;
+	display: block;
+}
+
+textarea:-moz-placeholder {
+      color: #999;
+}
+
+input:-moz-placeholder {
+      color: #999;
+}
+
+.name {
+	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px 0px;
+	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+	margin-top: 0px;
+	width: 270px;
+	padding-right: 22px;
+}
+
+.name:focus {
+	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px -48px;
+}
+
+.email {
+	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px 0px;
+	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+	width: 270px;
+	padding-right: 22px;
+}
+
+.email:focus {
+	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px -48px;
+}
+
+.verify {
+	background: url(/web/20181124223612im_/http://drved.com/img/humantest.png) no-repeat 0px 0px;
+	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+	width: 48px;
+	padding-right: 22px;
+}
+
+.verify:focus {
+	background: url(/web/20181124223612im_/http://drved.com/img/humantest.png) no-repeat 0px -48px;
+	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+	width: 48px;
+	padding-right: 22px;
+}
+
+.comment {
+	background: url(/web/20181124223612im_/http://drved.com/img/textarea.png) no-repeat;
+	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+	border-style: none;
+	outline: none;
+	color: #505050;
+	display: block;
+	padding: 20px 20px 0px 20px;
+	width: 270px;
+	height: 288px;
+	margin-bottom: 15px;
+	overflow: auto;
+	resize: none;
+}
+
+.comment:focus {
+	background: url(/web/20181124223612im_/http://drved.com/img/textarea.png) no-repeat 0px -308px;
+}
+
+.error_message {
+	color: #BB2025;
+}
+
+#stamp {
+	background: url(/web/20181124223612im_/http://drved.com/img/stamp.png) no-repeat;
+	display: inline-block;
+	height: 150px;
+	width: 143px;
+	position: relative;
+	top: -100px;
+	left:  270px;
+	z-index: 2;
+}
+
+#stamp_success {
+	background: url(/web/20181124223612im_/http://drved.com/img/stamp_success.png) no-repeat;
+	display: inline-block;
+	height: 150px;
+	width: 143px;
+	position: relative;
+	top: -110px;
+	left:  270px;
+	z-index: 2;
+}
+
+#stamp_error {
+	background: url(/web/20181124223612im_/http://drved.com/img/stamp_error.png) no-repeat;
+	display: inline-block;
+	height: 150px;
+	width: 143px;
+	position: relative;
+	top: -110px;
+	left:  270px;
+	z-index: 2;
+}
+
+
+
+/* @end */
+
+
+/*
+     FILE ARCHIVED ON 22:36:12 Nov 24, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:46:01 Nov 10, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 101.739
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.092
+  RedisCDXSource: 0.961
+  esindex: 0.008
+  LoadShardBlock: 81.02 (3)
+  PetaboxLoader3.datanode: 98.882 (5)
+  CDXLines.iter: 16.017 (3)
+  load_resource: 141.807 (2)
+  PetaboxLoader3.resolve: 63.536 (2)
+*/
