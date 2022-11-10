@@ -1,6 +1,3 @@
-@import url('/web/20181124223612cs_/http://drved.com/css/reset.css');
-@import url('/web/20181124223612cs_/http://drved.com/css/text.css');
-@import url('/web/20181124223612cs_/http://drved.com/css/960.css');
 
 /* @group General Styling */
 
@@ -15,7 +12,7 @@ body {
 	width: 100%;
 	height: 70px;
 	position: fixed;
-	background: url(/web/20181124223612im_/http://drved.com/img/top_bg.png) repeat-x;
+	background: url(top_bg.png) repeat-x;
 	top: 0;
 }
 
@@ -23,7 +20,7 @@ body {
 	width: 940px;
 	height: 70px;
 	position: fixed;
-	background: url(/web/20181124223612im_/http://drved.com/img/bottom_bg.png) repeat-x;
+	background: url(bottom_bg.png) repeat-x;
 	bottom: 0;
 }
 
@@ -83,7 +80,7 @@ ul.navigation li a:active {
 	width: 112px;
 	height: 112px;
 	display: block;
-	background: url(/web/20181124223612im_/http://drved.com/img/home.png) no-repeat -112px 0px;
+	background: url(home.png) no-repeat -112px 0px;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	text-shadow: none;
@@ -94,7 +91,7 @@ ul.navigation li a:active {
 	width: 112px;
 	height: 112px;
 	display: block;
-	background: url(/web/20181124223612im_/http://drved.com/img/team.png) no-repeat -112px 0px;
+	background: url(team.png) no-repeat -112px 0px;
 	margin-bottom: 20px;
 	text-shadow: none;
 	text-indent: -9999px;
@@ -104,7 +101,7 @@ ul.navigation li a:active {
 	width: 112px;
 	height: 112px;
 	display: block;
-	background: url(/web/20181124223612im_/http://drved.com/img/work.png) no-repeat -112px 0px;
+	background: url(work.png) no-repeat -112px 0px;
 	margin-bottom: 20px;
 	text-shadow: none;
 	text-indent: -9999px;
@@ -114,7 +111,7 @@ ul.navigation li a:active {
 	width: 112px;
 	height: 112px;
 	display: block;
-	background: url(/web/20181124223612im_/http://drved.com/img/contact.png) no-repeat -112px 0px;
+	background: url(contact.png) no-repeat -112px 0px;
 	margin-bottom: 20px;
 	text-shadow: none;
 	text-indent: -9999px;
@@ -123,25 +120,25 @@ ul.navigation li a:active {
 
 /* Navigation Hover State */
 #button_home:hover {
-	background: url(/web/20181124223612im_/http://drved.com/img/home.png) no-repeat 0px 0px;
+	background: url(home.png) no-repeat 0px 0px;
 	text-decoration: none;
 	text-indent: -9999px;
 }
 
 #button_team:hover {
-	background: url(/web/20181124223612im_/http://drved.com/img/team.png) no-repeat 0px 0px;
+	background: url(team.png) no-repeat 0px 0px;
 	text-decoration: none;
 	text-indent: -9999px;
 }
 
 #button_work:hover {
-	background: url(/web/20181124223612im_/http://drved.com/img/work.png) no-repeat 0px 0px;
+	background: url(work.png) no-repeat 0px 0px;
 	text-decoration: none;
 	text-indent: -9999px;
 }
 
 #button_contact:hover {
-	background: url(/web/20181124223612im_/http://drved.com/img/contact.png) no-repeat 0px 0px;
+	background: url(contact.png) no-repeat 0px 0px;
 	text-decoration: none;
 	text-indent: -9999px;
 }
@@ -203,7 +200,7 @@ ul {
 	width: 308px;
 	height: 48px;
 	display: block;
-	background: url(/web/20181124223612im_/http://drved.com/img/submit.png) no-repeat 0px 0px;
+	background: url(submit.png) no-repeat 0px 0px;
 	font-family: "Museo700","Myriad Pro",Helvetica,sans-serif;
 	font-size: 20px;
 	color: #505050;
@@ -217,7 +214,7 @@ ul {
 
 /* Form Button Hover State */
 .button:hover {
-	background: url(/web/20181124223612im_/http://drved.com/img/submit.png) no-repeat 0px -48px;
+	background: url(submit.png) no-repeat 0px -48px;
 	text-decoration: none;
 	color: #930005;
 	font-family: "Museo700","Myriad Pro",Helvetica,sans-serif;
@@ -250,7 +247,7 @@ input:-moz-placeholder {
 }
 
 .name {
-	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px 0px;
+	background: url(form-elements.png) no-repeat 0px 0px;
 	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	margin-top: 0px;
 	width: 270px;
@@ -258,36 +255,36 @@ input:-moz-placeholder {
 }
 
 .name:focus {
-	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px -48px;
+	background: url(form-elements.png) no-repeat 0px -48px;
 }
 
 .email {
-	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px 0px;
+	background: url(form-elements.png) no-repeat 0px 0px;
 	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	width: 270px;
 	padding-right: 22px;
 }
 
 .email:focus {
-	background: url(/web/20181124223612im_/http://drved.com/img/form-elements.png) no-repeat 0px -48px;
+	background: urlform-elements.png) no-repeat 0px -48px;
 }
 
 .verify {
-	background: url(/web/20181124223612im_/http://drved.com/img/humantest.png) no-repeat 0px 0px;
+	background: url(humantest.png) no-repeat 0px 0px;
 	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	width: 48px;
 	padding-right: 22px;
 }
 
 .verify:focus {
-	background: url(/web/20181124223612im_/http://drved.com/img/humantest.png) no-repeat 0px -48px;
+	background: url(humantest.png) no-repeat 0px -48px;
 	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	width: 48px;
 	padding-right: 22px;
 }
 
 .comment {
-	background: url(/web/20181124223612im_/http://drved.com/img/textarea.png) no-repeat;
+	background: url(textarea.png) no-repeat;
 	font:12px/1.5 verdana,helvetica,"Lucida Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	border-style: none;
 	outline: none;
@@ -302,7 +299,7 @@ input:-moz-placeholder {
 }
 
 .comment:focus {
-	background: url(/web/20181124223612im_/http://drved.com/img/textarea.png) no-repeat 0px -308px;
+	background: url(textarea.png) no-repeat 0px -308px;
 }
 
 .error_message {
@@ -310,7 +307,7 @@ input:-moz-placeholder {
 }
 
 #stamp {
-	background: url(/web/20181124223612im_/http://drved.com/img/stamp.png) no-repeat;
+	background: url(stamp.png) no-repeat;
 	display: inline-block;
 	height: 150px;
 	width: 143px;
@@ -321,7 +318,7 @@ input:-moz-placeholder {
 }
 
 #stamp_success {
-	background: url(/web/20181124223612im_/http://drved.com/img/stamp_success.png) no-repeat;
+	background: url(stamp_success.png) no-repeat;
 	display: inline-block;
 	height: 150px;
 	width: 143px;
@@ -332,7 +329,7 @@ input:-moz-placeholder {
 }
 
 #stamp_error {
-	background: url(/web/20181124223612im_/http://drved.com/img/stamp_error.png) no-repeat;
+	background: url(stamp_error.png) no-repeat;
 	display: inline-block;
 	height: 150px;
 	width: 143px;
