@@ -165,7 +165,7 @@ ul {
 	border-radius: 5px;
 	text-align: center;
 	color: #fff;
-	background: #888;
+	background: #BC2125;
 	width: 260px;
 	text-shadow: none;
 	margin-bottom: 20px;
@@ -175,7 +175,7 @@ ul {
 }
 
 #mailto:hover {
-	background: #555;
+	background: #90191D;
 }
 
 .footer {
