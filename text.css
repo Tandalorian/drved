@@ -68,11 +68,11 @@ fieldset{margin-bottom:10px;}
 
 @font-face {
     font-family: 'Museo700';
-    src: url('/web/20181221034343im_/http://drved.com/css/Museo700-Regular-webfont.eot');
-    src: url('/web/20181221034343im_/http://drved.com/css/Museo700-Regular-webfont.eot?iefix') format('eot'),
-         url('/web/20181221034343im_/http://drved.com/css/Museo700-Regular-webfont.woff') format('woff'),
-         url('/web/20181221034343im_/http://drved.com/css/Museo700-Regular-webfont.ttf') format('truetype'),
-         url('/web/20181221034343im_/http://drved.com/css/Museo700-Regular-webfont.svg#webfontNpXBDqia') format('svg');
+    src: url('=Museo700-Regular-webfont.eot');
+    src: url('=Museo700-Regular-webfont.eot?iefix') format('eot'),
+         url('=Museo700-Regular-webfont.woff') format('woff'),
+         url('=Museo700-Regular-webfont.ttf') format('truetype'),
+         url('=Museo700-Regular-webfont.svg#webfontNpXBDqia') format('svg');
     font-weight: normal;
     font-style: normal;
 
